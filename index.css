@@ -3,3 +3,134 @@
 @import url(productPage/productLanding.css);
 @import url(signUp/sign-up.css);
 @import url(wishlist/wishlist.css);
+
+html .without-shadow {
+    box-shadow: none;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+
+.notification.mat {
+    background-image: linear-gradient(to top, var(--secondary-300), var(--red-400));
+}
+
+.nav-section-left .logo a:hover {
+    font-size: var(--size-16);
+    transition: all 300ms ease-in;
+}
+
+body {
+    background-image: linear-gradient(to bottom, var(--secondary-100), var(--white));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.flashContent .img-responsive {
+    width: 100%;
+}
+
+.img-wrapper {
+    position: relative;
+    margin-bottom: var(--size-16);
+}
+
+.img-wrapper .tertiary {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-20%, 100%);
+}
+
+.img-wrapper .eg-card {
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+.item-scroller {
+    background-color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-12);
+    justify-content: center;
+    margin: 4rem 0;
+}
+
+.item-scroller img {
+    width: 9rem;
+    height: 7rem;
+    transition: all 300ms ease-in-out;
+}
+
+.item-scroller .img-title {
+    border-radius: 50%;
+}
+
+.footer-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-12);
+    padding: var(--size-12);
+}
+
+.right-footers {
+    display: flex;
+    gap: var(--size-12);
+}
+
+@media all and (max-width:800px) {
+    .item-scroller {
+        margin-top: var(--size-20);
+    }
+
+    .nav-bar .input-text.md {
+        width: 8rem;
+    }
+
+    .nav-section-left button {
+        padding-left: 0;
+    }
+
+    .nav-bar .primary {
+        width: 5rem;
+        padding: 0;
+    }
+
+    .footer-section {
+        background-color: var(--primary-400);
+    }
+
+    .footer-section p {
+        font-size: var(--size-08);
+        color: var(--white);
+    }
+
+    .right-footers a img {
+        background-color: var(--white);
+    }
+}
+
+@media all and (max-width:500px) {
+    .nav-bar .input-text {
+        display: none;
+    }
+
+}
+
+@media all and (max-width:400px) {
+    .img-wrapper img {
+        visibility: hidden;
+    }
+
+}
+
