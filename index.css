@@ -127,10 +127,4 @@ body {
 
 }
 
-@media all and (max-width:400px) {
-    .img-wrapper img {
-        visibility: hidden;
-    }
-
-}
 
