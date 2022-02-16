@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="E-Commerce Landing-Page">
+    <meta name="keywords" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="/index.css" rel="stylesheet">
+    <link href="https://attr-act.netlify.app/Attract.css" rel="stylesheet">
+    <title>Attr🔹ct-Hub </title>
+    <link rel="icon" href="/images/cover5.png">
+</head>
+<body>
+    <div class="egCom-productLanding">
+        <header class="nav-bar with-shadow">
+            <div class="nav-section-left">
+                <a href="/index.html" class="previous-window"><span class="material-icons outlined size-12">
+                    arrow_back_ios
+                    </span></a>
+               
+                <button class="secondary-link logo"><a href="/index.html">Attr🔹ct</a><br>
+                    <small class="sm">Let's shop</small></button>
+            </div>
+            <section>
+            <input type="text" class="input-text md" placeholder="Search...">
+            <button class="primary btn md login without-shadow">Login</button>
+            
+            </section>
+            <div class="nav-section-right ">
+                <div class="icon-with-badge"><a href="/wishlist/wishlist.html">
+                    <span class="material-icons outlined lg">favorite</span>
+                    <small class="text-center notification mat xsm">0</small></a>
+    
+                </div>
+                <div class="icon-with-badge"><a href="/cart/cart.html">
+                    <span class="material-icons outlined lg">
+                        shopping_cart
+                    </span>
+                    <small class="text-center notification mat xsm">0</small></a>
+                </div>
+            </div>
+        </header>
+        <main class="listed-products">
+            <aside class="products-filters">
+                <h2 >Filters</h2>
+                <div>
+                      <h2>Sort</h2>
+                <ul class="list-noneOrdered">
+                    <li><label for="price-htl"><input name="price" type="radio" id="price-htl"><small  class="md"> High to Low</small></label></li>
+                    <li><label for="price-lth"><input name="price" type="radio" id="price-lth"><small  class="md"> Low to High</small></label></li>
+                </ul> 
+                </div> 
+                <div>
+                      <h2>Categories</h2>
+                <ul class="list-noneOrdered">
+                    <li><label for="category1"><input name="category" type="checkbox" id="category1"><small  class="md"> Accessories</small></label></li>
+                    <li><label for="category2"><input name="category" type="checkbox" id="category2"><small  class="md"> Safety</small></label></li>
+                    <li><label for="category3"><input name="category" type="checkbox" id="category3"><small  class="md"> Car-wraps</small></label></li>
+                    <li><label for="category4"><input name="category" type="checkbox" id="category4"><small  class="md"> Spare-Parts</small></label></li>
+                </ul> 
+                </div>
+                <div>
+                      <h2>Brands</h2>
+                <ul class="list-noneOrdered">
+                    <li><label for="brand1"><input name="brands" type="checkbox" id="brand1"><small  class="md"> Safers</small></label></li>
+                    <li><label for="brand2"><input name="brands" type="checkbox" id="brand2"><small  class="md"> Keyos</small></label></li>
+                    <li><label for="brand3"><input name="brands" type="checkbox" id="brand3"><small  class="md"> Wrapofy</small></label></li>
+                    <li><label for="brand4"><input name="brands" type="checkbox" id="brand4"><small  class="md"> X-hosts</small></label></li>
+                </ul> 
+                </div>
+                <div>
+                      <h2>Ratings</h2><br>
+                      <form name="rating" oninput="range1value.innerText = range1.value" class="slider-container">
+                        <label class="slider-track">
+                        <input class="slider" name="range1" type="range" step="1" min="1" max="5" value="1" ></label>
+                        <div>
+                            <output name="range1value" class="bold size-16"> 1</output><span class="text-blue size-20">⋆</span>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                      <h2>Others</h2>
+                <ul class="list-noneOrdered">
+                    <li><label for="price-htl"><input name="others" type="checkbox" id="price-htl"><small  class="md"> Coming Soon</small></label></li>
+                    <li><label for="price-htl"><input name="others" type="checkbox" id="price-htl"><small  class="md"> Out-of-Stock</small></label></li>
+                   
+                </ul> 
+                </div>
+            </aside>
+            <div class="products-matrix">
+                <div class="first eg-card card-one without-shadow">
+                    <header class="card-header-text bold">FingerPrint Sensors<br>
+                        <small class="sm">Safers</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="/images/fingerPrintSensors.jpg"
+                        alt="Finger Print Sensor">
+                        <main class="card-body">
+                            <p>This is the niche and profound tech to secure the car's doors and provide easy in and out access to owner.</p>
+                        </main>
+                        <footer class="card-footer-icons">
+                            <span class="card-primary-footer eg-buttons">
+                                <p class="lg">$299</p>
+                                <button class="tertiary md">Add to Cart</button>
+                                
+                            </span>
+                            <span class="card-secondary-footer eg-buttons">
+                                <button class="special-icon-button"><span class="material-icons outlined md">
+                                        favorite_border
+                                    </span></button>
+                                <button class="special-icon-button"><span class="material-icons outlined md">
+                                        share
+                                    </span></button>
+                                
+                            </span>
+                        </footer>
+                    
+                </div>
+                <div class="full-card-shadowed">
+                <div class="eg-card card-five without-shadow">
+
+                    <header class="card-header-text bold">Fire Proof Doors<br>
+                        <small class="sm">Safers</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="/images/fireProof.jpg"
+                        alt="Fire Exit Door">
+                        <main class="card-body">
+                            <p>This is our newest product and can save you from upto 400°C of heat and also provides an escape route out of the car with a fire-exit window.</p>
+                        </main>
+                    
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <p class="lg">$420</p>
+                            <button class="tertiary md">Add to Cart</button>
+                            
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            
+                        </span>
+                    </footer>
+                </div>
+                <p class="text-over-card lg">Coming Soon</p>
+                </div>
+                <div class="third eg-card card-one without-shadow">
+
+                    <header class="card-header-text bold">Lambo Key Cover<br>
+                        <small class="sm">Keyos</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="/images/lambokey.jpg"
+                        alt="Lamborghini KeyCover">
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <p class="lg">$28</p>
+                            <button class="tertiary md">Add to Cart</button>
+                            
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            
+                        </span>
+                    </footer>
+                </div>
+                <div class="fourth eg-card card-one without-shadow">
+
+                    <header class="card-header-text bold">Lambo Badge<br>
+                        <small class="sm">Keyos</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="/images/lamboBadge.jpg"
+                        alt="Lamborghini KeyCover">
+                        
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <p class="lg">$5</p>
+                            <button class="tertiary md">Add to Cart</button>
+                            
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            
+                        </span>
+                    </footer>
+                </div>
+                <div class="fifth eg-card card-one without-shadow">
+
+                    <header class="card-header-text bold"> BlueMoon Wrap<br>
+                        <small class="sm">Wrapofy</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="/images/moonBlue.jpg"
+                        alt="Lamborghini KeyCover">
+                        
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <p class="lg">$520</p>
+                            <button class="tertiary md">Add to Cart</button>
+                            
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            
+                        </span>
+                    </footer>
+                </div>
+                <div class="sixth eg-card card-one without-shadow">
+
+                    <header class="card-header-text bold"> WalkerBlack Wrap<br>
+                        <small class="sm">Wrapofy</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="/images/walkerBlack.jpg"
+                        alt="Lamborghini KeyCover">
+                        
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <p class="lg">$570</p>
+                            <button class="tertiary md">Add to Cart</button>
+                            
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            
+                        </span>
+                    </footer>
+                </div>
+                <div class="seventh eg-card card-one without-shadow">
+
+                    <header class="card-header-text bold"> Martini Exhaust<br>
+                        <small class="sm">X-hosts</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="/images/martini.jpg"
+                        alt="Lamborghini Exhaust">
+                        
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <p class="lg">$250</p>
+                            <button class="tertiary md">Add to Cart</button>
+                            
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            
+                        </span>
+                    </footer>
+                </div>
+                <div class="full-card-shadowed">
+                <div class="eighth eg-card card-five without-shadow">
+
+                    <header class="card-header-text bold"> Godzilla Exhaust<br>
+                        <small class="sm">X-hosts</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiRw0lDX6ks9rTVIN_xtScQ-M1D29QBFyBcA&usqp=CAU"
+                        alt="Lamborghini Exhaust">
+                          
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <p class="lg">$220</p>
+                            <button class="tertiary md">Add to Cart</button>
+                            
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            
+                        </span>
+                    </footer>
+                </div>
+                <p class="text-over-card lg">Out of Stock</p>
+            </div>
+                <div class="ninth eg-card card-one without-shadow">
+
+                    <header class="card-header-text bold"> KingKong BodyKit<br>
+                        <small class="sm">Keyos</small>
+                    </header>
+
+                    <img class="card-image"
+                        src="/images/bodykit.jpg"
+                        alt="Lamborghini Body-Kit">
+                        
+                    <footer class="card-footer-icons">
+                        <span class="card-primary-footer eg-buttons">
+                            <p class="lg">$720</p>
+                            <button class="tertiary md">Add to Cart</button>
+                            
+                        </span>
+                        <span class="card-secondary-footer eg-buttons">
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    favorite_border
+                                </span></button>
+                            <button class="special-icon-button"><span class="material-icons outlined md">
+                                    share
+                                </span></button>
+                            
+                        </span>
+                    </footer>
+                </div>
+            </div>
+        </main>
+
+
+
+        <script src="/index.js">
+            </script>
+</body>
+</html>
