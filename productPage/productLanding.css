@@ -28,8 +28,8 @@
     margin: 0;
 }
 
-.products-filters .list-noneOrdered>li {
-    padding: 5px 0;
+.products-filters .list-noneOrdered {
+    padding: 10px 0;
 }
 
 .products-matrix {
@@ -65,17 +65,15 @@
     }
 }
 
-@media all and (max-width:700px) {
+@media all and (max-width:620px) {
+    .products-matrix {
+        margin-left: 10px;
+    }
+
     .products-filters {
-        flex: 3;
+        padding-left: 5px;
     }
 
-    .list-noneOrdered {
-        padding-left: 1rem;
-    }
-}
-
-@media all and (max-width:560px) {
     .notification.mat {
         padding: 0;
     }
