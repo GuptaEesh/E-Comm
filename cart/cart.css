@@ -1,0 +1,81 @@
+.container-cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: var(--size-12);
+    gap: var(--size-12);
+}
+
+.address.eg-card {
+    height: 8rem;
+    gap: var(--size-12);
+    width: 80%;
+}
+
+.address-orders .card-landscape-one {
+    height: 10rem;
+}
+
+.input-text.counter {
+    width: 6rem;
+}
+
+.card-primary-footer {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-primary-footer>.tertiary {
+    margin-right: var(--size-12);
+}
+
+.container-cart>.card-one {
+    height: 16rem;
+}
+
+.container-cart>.card-one .card-secondary-footer {
+    justify-content: center;
+}
+
+.eg-card .reveal-button {
+    height: var(--size-20);
+    width: var(--size-20);
+}
+
+.cart-products {
+    border: 4px solid var(--primary-200);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 20rem;
+}
+
+.counter-manipulation {
+    align-items: center;
+    display: flex;
+}
+
+@media all and (max-width:1240px) {
+    .eg-card .reveal-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cart-page .eg-card.card-landscape-one {
+        height: 12rem;
+    }
+}
+
+@media all and (max-width:620px) {
+    .cart-page .eg-card.card-one {
+        height: 18rem;
+    }
+
+    .cart-page .eg-card.card-one .primary {
+        height: var(--size-24);
+        padding: var(--size-08);
+    }
+}
+
