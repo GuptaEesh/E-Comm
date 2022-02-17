@@ -1,0 +1,32 @@
+.wishlist-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-08);
+    justify-content: space-around;
+    margin-top: var(--size-16);
+}
+
+.wishlist-items .card-footer-icons {
+    flex-direction: column;
+    gap: 4px;
+    padding-left: 0;
+}
+
+.wishlist-items .card-footer-icons button {
+    width: 100%;
+}
+
+.eg-card .card-header-text {
+    margin-bottom: 4px;
+}
+
+@media all and (max-width:620px) {
+
+    .eg-card .primary,
+    .eg-card .secondary {
+        height: var(--size-16);
+        font-size: smaller;
+        padding: 0;
+    }
+}
+
