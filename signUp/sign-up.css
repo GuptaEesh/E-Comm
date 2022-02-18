@@ -1,0 +1,15 @@
+.login-dialogue .dialogue-container{
+    display: none;
+    position: fixed;
+    z-index: 3;
+    top:0;
+    transform: translateY(80%);
+}
+.login-dialogue .dialogue-container .dialogue-content{
+    overflow-y: scroll;
+}
+@media all and (max-width:500px) {
+    .login-dialogue .dialogue-container{
+        transform: translate(-5%,80%);
+    }
+}
