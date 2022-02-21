@@ -16,52 +16,52 @@
 
 <body>
     <div class="login-page">
-    <header class="nav-bar with-shadow">
-        <div class="nav-section-left">
-            <button class="secondary-link "><a href="/index.html">Home</a>
-            </button>
-            <button class="secondary-link"><a href="/productPage/productLanding.html">Shop</a>
-            </button>
-        </div>
-        <button class="tertiary btn">Login Page
-        </button>
-        <div class="nav-section-right ">
-
-            <div class="icon-with-badge"><a href="/wishlist/wishlist.html">
-                    <span class="material-icons outlined lg">favorite</span>
-                    <small class="text-center notification mat xsm">0</small></a>
-
+        <header class="nav-bar with-shadow">
+            <div class="nav-section-left">
+                <button class="secondary-link "><a href="/index.html">Home</a>
+                </button>
+                <button class="secondary-link"><a href="/productPage/productLanding.html">Shop</a>
+                </button>
             </div>
-            <div class="icon-with-badge"><a href="/cart/cart.html">
-                    <span class="material-icons outlined lg">
-                        shopping_cart
-                    </span>
-                    <small class="text-center notification mat xsm">0</small></a>
+            <button class="tertiary btn">Login Page
+            </button>
+            <div class="nav-section-right ">
+
+                <div class="icon-with-badge"><a href="/wishlist/wishlist.html">
+                        <span class="material-icons outlined lg">favorite</span>
+                        <small class="text-center notification mat xsm">0</small></a>
+
+                </div>
+                <div class="icon-with-badge"><a href="/cart/cart.html">
+                        <span class="material-icons outlined lg">
+                            shopping_cart
+                        </span>
+                        <small class="text-center notification mat xsm">0</small></a>
+                </div>
             </div>
+        </header>
+
+        <div class="login-dialogue log-in glass">
+
+            <label>
+                <h2>Email Address</h2>
+                <input type="text" class="input-text md" placeholder="E-mail Address...">
+            </label>
+            <label>
+                <h2>Password</h2>
+                <input class="input-text check md" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}"
+                    maxlength="15" placeholder="Password[A a .*\ minlen-4 ]" />
+            </label>
+
+
+            <label><input type="checkbox">Remember me</label>
+            <button class="secondary-link"><a href="./forgotPass.html" class="md">Forgot password?</a></button>
+
+            <button class="primary btn md without-shadow">Login</button>
+            <button class="secondary-link sign-in"><a href="/signUp/sign-up.html" class="size-12">Create
+                    Account</a></button>
         </div>
-    </header>
-
-    <div class="login-dialogue log-in glass">
-
-        <label>
-            <h2>Email Address</h2>
-            <input type="text" class="input-text md" placeholder="E-mail Address...">
-        </label>
-        <label>
-            <h2>Password</h2>
-            <input class="input-text check md" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}"
-                maxlength="15" placeholder="Password[A a .*\ minlen-4 ]" />
-        </label>
-
-
-        <label><input type="checkbox">Remember me</label>
-        <button class="secondary-link"><a href="./forgotPass.html" class="md">Forgot password?</a></button>
-
-        <button class="primary btn md without-shadow">Login</button>
-        <button class="secondary-link sign-in"><a href="/signUp/sign-up.html" class="size-12">Create
-                Account</a></button>
     </div>
-</div>
     <script src="/index.js"></script>
 
 </body>
