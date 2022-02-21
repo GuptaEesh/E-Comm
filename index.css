@@ -5,7 +5,7 @@
 @import url(wishlist/wishlist.css);
 @import url(productPage/singleProduct.css);
 @import url(logout/logout.css);
-
+@import url(cart/checkout.css);
 
 html .without-shadow {
     box-shadow: none;
