@@ -1,0 +1,8 @@
+.logout{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-16);
+    justify-content: center;
+    height: 80vh;
+}
