@@ -60,20 +60,19 @@
                     pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}" maxlength="15"
                     placeholder="Password[A a .*\ minlen-4 ]" />
             </label>
-            <label><input type="checkbox" class="input"><span class="sm terms-info">Accept terms and
-                    conditions</span></label>
+            <label><input id="checkTerms" type="checkbox" class="input" checked><span class="sm terms-info" >Accept T&C</span></label>
             <button class="primary btn md without-shadow">Create my account</button>
             <button class="secondary-link sign-in"><a href="/login/login.html" class="md">Already have an
                     account?</a></button>
-            <div class="dialogue-container ">
+            <div id="popup-box" class="dialogue-container ">
                 <div class="dialogue-content">
                     <p class="md bolder">Terms and Conditions</p>
                     <small class="md lighter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quam,
                         quisquam reprehenderit illum sequi iste velit quis magni. Numquam delectus a cupiditate omnis
                         sequi minima voluptates aspernatur, nulla est asperiores!</small>
                 </div>
-                <button class="tertiary bold btn blue-button md border-between-button">Cancel</button>
-                <button class="tertiary bold btn blue-button md accept">Accept</button>
+                <button id="cancel" class="tertiary bold btn blue-button md border-between-button">Cancel</button>
+                <button id="accept" class="tertiary bold btn blue-button md accept">Accept</button>
             </div>
         </div>
     </div>

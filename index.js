@@ -7,15 +7,17 @@ mySliders.forEach(mySlider => mySlider.addEventListener('input', () => {
 
 //Terms and condition dialogue box.
 let termsInfo = document.querySelector('.terms-info');
+let checkbox=document.querySelector('#checkTerms');
 termsInfo.addEventListener('click', () => {
-    document.querySelector('.dialogue-container').style.display = "grid";
+    document.querySelector('#popup-box').style.display = "grid";
 })
-document.querySelector('.border-between-button').addEventListener('click', () => {
-    document.querySelector('.signup-page .input').checked = false;
-    document.querySelector('.signup-page .dialogue-container').style.display = "none";
+document.querySelector('#cancel').addEventListener('click', () => {
+    
+    checkbox.checked = false;
+    document.querySelector('#popup-box').style.display = "none";
 })
-document.querySelector('.accept').addEventListener('click', () => {
-    document.querySelector('.signup-page .input').checked = true;
-    document.querySelector('.signup-page .dialogue-container').style.display = "none";
+document.querySelector('#accept').addEventListener('click', () => {
+    checkbox.checked = true;
+    document.querySelector('#popup-box').style.display = "none";
 })
 

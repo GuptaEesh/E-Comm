@@ -14,3 +14,10 @@
     padding: 0;
 }
 
+.login-page .nav-section-right{
+    width:10rem;
+}
+
+.login-page .nav-bar .tertiary{
+    transform: translateX(-15%);
+}
