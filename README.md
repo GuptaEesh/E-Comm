@@ -1,4 +1,10 @@
 # Attract-Hub 
+
+## Look and Feel
+
+![ecomm1](https://user-images.githubusercontent.com/90090601/154923923-7d888ef7-a63c-4f82-9102-3ec357a52803.PNG)
+
+
 ## Few features:
   - Landing page with advertisements.
   - Products page
