@@ -4,6 +4,8 @@
 @import url(signUp/sign-up.css);
 @import url(wishlist/wishlist.css);
 @import url(productPage/singleProduct.css);
+@import url(logout/logout.css);
+
 
 html .without-shadow {
     box-shadow: none;
