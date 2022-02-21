@@ -8,6 +8,15 @@
 .login-dialogue .dialogue-container .dialogue-content{
     overflow-y: scroll;
 }
+
+.signup-page .nav-section-right{
+    width:10rem;
+}
+
+.signup-page .nav-bar .tertiary{
+    transform: translateX(-15%);
+}
+
 @media all and (max-width:500px) {
     .login-dialogue .dialogue-container{
         transform: translate(-5%,80%);

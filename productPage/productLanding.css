@@ -40,6 +40,19 @@
     margin: var(--size-08) 0 var(--size-20) var(--size-20);
 }
 
+.egCom-productLanding .card-primary-footer{
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.liked-card .material-icons{
+    color:var(--secondary-300);
+    font-weight: bolder;
+}
+.eg-card .liked-card:hover{
+    background-color: var(--primary-400);
+}
+
 .fourth img,
 .fifth img,
 .sixth img,
