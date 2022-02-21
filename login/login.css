@@ -21,3 +21,20 @@
 .login-page .nav-bar .tertiary{
     transform: translateX(-15%);
 }
+
+.pass-reset{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    height: 50vh;
+}
+
+.pass-reset button{
+    padding:0 var(--size-08);
+}
+
+.forgot-pass h1{
+    margin-top:var(--size-08);
+}
